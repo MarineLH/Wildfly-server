@@ -1,4 +1,4 @@
-# Wildfly-server
+﻿# Wildfly-server
 
 Création d'un serveur Wildfly dans un container LXC avec Ansible
 
@@ -34,6 +34,7 @@ exemple :
 4) >> iptables-save >  /etc/iptables/rules.v4
 
 Depuis notre PC physique : 
+
 5) Dans un navigateur web, entrez l'@IP de la VM suivi de :8080 - exemple : http://10.123.219.55:8080
 
 La page wildfly par défaut doit s'afficher
