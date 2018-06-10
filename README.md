@@ -9,7 +9,7 @@ Création d'un serveur Wildfly dans un container LXC avec Ansible
 >> ssh @IP_Container
 
 3) Modifier l'inventaire Ansible :
-éditer le fichier inventory.ini pour y ajouter l'@IP de notre container dans la group wildfly
+éditer le fichier inventory.ini pour y ajouter l'@IP de notre container dans le groupe wildfly
 
 4) Lancer le playbook Ansible :
 >> sh 02_run_playbook.sh
